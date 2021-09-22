@@ -56,7 +56,7 @@ This recipe installs PHP from packages.
 
 ### community_package
 
-This recipe intalls PHP from one of two available community package repositories, depending on platform family. This provides the ability to install PHP versions that are no provided by the official distro repositories.
+This recipe intalls PHP from one of two available community package repositories, depending on platform family. This provides the ability to install PHP versions that are not provided by the official distro repositories.
 
 Set `node['php']['install_method'] = 'community_package'` to use these repositories.
 
